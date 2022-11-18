@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+.info_header {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.info_header div {
+    height: auto;
+    width: 30%;
+    text-align: center;
+}
+
+.wide_image {
+    width: 100%;
+    height: auto;
+}
