@@ -1,11 +1,13 @@
 body {
     margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .info_header {
     display: flex;
     justify-content: center;
-    background-color: lightblue;
+    background-color: rgb(62, 153, 223);
+    color: snow;
     text-align: center;
 }
 
