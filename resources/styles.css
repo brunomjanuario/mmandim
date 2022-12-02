@@ -1,6 +1,10 @@
 body {
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .info_header {
@@ -9,12 +13,20 @@ body {
     background-color: rgb(62, 153, 223);
     color: snow;
     text-align: center;
+    width: 100%;
 }
 
 .info_header div {
     height: auto;
     width: 30%;
     text-align: center;
+}
+
+.work_cards {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 .wide_image {
