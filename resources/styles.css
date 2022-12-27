@@ -46,7 +46,7 @@ body {
 }
 
 .logo {
-    margin-left: 5%;
+    padding-left: 5%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -79,6 +79,42 @@ body {
     color: black;
 }
 
+.card {
+    background-color: white;
+    color: black;
+    display: inline-flex;
+    height: 200px;
+    font-size: large;
+}
+
+.card_image {
+    width: 40%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.image_title {
+    padding-left: 20%;
+}
+
+.image_title h1 {
+    margin-top: 2%;
+}
+
+.card_text {
+    width: 60%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.card_text p {
+    padding-right: 5%;
+}
+
+.image_card img {
+    width: 100%;
+}
+
 .footer {
     background-color: black;
     color: #ffffff;
@@ -91,6 +127,7 @@ body {
     width: 50%;
     padding-left: 8%;
     padding-top: 3%;
+    padding-right: 8%;
 }
 
 .contacts_logo img {
