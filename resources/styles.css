@@ -1,273 +1,131 @@
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-/* INFO HEADER STYLE */
-
-.info_header {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(47, 130, 194);
-    color: snow;
-    text-align: center;
-    width: 100%;
-    border-bottom: 1px solid #ffffff;
-}
-
-.info_header div {
-    height: auto;
-    width: 30%;
-    text-align: center;
-}
-
-/* NAV BAR STYLE */
-
-.home {
-    position: relative;
-}
-
-.nav_bar {
-    top: 0;
-    width: 100%;
-    /* Full width */
-    height: 75px;
-    display: flex;
-    position: absolute;
-    justify-content: space-between;
-}
-
-.logo {
-    padding-left: 5%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#logo {
-    width: auto;
-    height: 80%;
-}
-
-.menu {
-    width: 50%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-right: 5%;
-}
-
-.menu a {
-    text-decoration: none;
-    font-size: smaller;
-    height: auto;
-    text-align: center;
-    color: snow;
-    display: block;
-}
-
-.menu a:hover {
-    font-size: larger;
-}
-
-/* CARDS STYLE */
-
-.card {
-    background-color: white;
-    color: black;
-    display: inline-flex;
-    height: auto;
-    font-size: large;
-}
-
-.card_image {
-    width: 40%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
-.image_title {
-    padding-left: 20%;
-}
-
-.image_title h1 {
-    margin-top: 2%;
-    font-size: 40px;
-}
-
-.card_text {
-    width: 60%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
-.card_text p {
-    padding-right: 10%;
-    font-size: 18px;
-    padding-left: 5%;
-    text-align: justify;
-    word-spacing: 2px;
-    line-height: 1.7rem;
-}
-
-.image_card img {
-    width: 100%;
-}
-
-.wide_image {
-    width: 100%;
-    height: auto;
-}
-
-/* FOOTER STYLE */
-
-.footer {
-    background-color: black;
-    color: #ffffff;
-    display: inline-flex;
-    height: 400px;
-    border-top: 1px solid #ffffff;
-}
-
-.contacts_info {
-    overflow: hidden;
-    width: 50%;
-    padding-left: 8%;
-    padding-top: 3%;
-    padding-right: 8%;
-}
-
-.contacts_logo img {
-    width: 150px;
-}
-
-.google_maps {
-    width: 50%;
-    padding-left: 3%;
-    padding-top: 3%;
-}
-
-.social_media_info {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.social_media_info img {
-    width: 34px;
-    height: 32px;
-}
-
-.social_media_info p {
-    padding-left: 20px;
-}
-
-.social_media_info a {
-    padding-left: 20px;
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.social_media_info a:hover {
-    padding-left: 20px;
-    text-decoration: none;
-    color: blue;
-}
-
-/* SMARTPHONES STYLE */
-
-@media (max-device-width : 700px)  {
+@media (min-device-width : 750px) {
 
     body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
     }
-    
+
     /* INFO HEADER STYLE */
-    
+
     .info_header {
-        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(47, 130, 194);
+        color: snow;
+        text-align: center;
+        width: 100%;
+        border-bottom: 1px solid #ffffff;
     }
-    
+
     .info_header div {
         height: auto;
         width: 30%;
         text-align: center;
     }
-    
+
     /* NAV BAR STYLE */
-    
+
+    .home {
+        position: relative;
+    }
+
     .nav_bar {
-        flex-direction: column;
+        top: 0;
+        width: 100%;
+        /* Full width */
+        height: 75px;
+        display: flex;
+        position: absolute;
+        justify-content: space-between;
     }
-    
+
     .logo {
-        padding-left: 0%;
+        padding-left: 5%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
-    
+
     #logo {
-        padding-top: 1%;
-        width: 40%;
-        height: auto;
+        width: auto;
+        height: 80%;
     }
-    
+
     .menu {
-        visibility: hidden;
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-right: 5%;
+    }
+
+    .menu a {
+        text-decoration: none;
+        font-size: smaller;
+        height: auto;
+        text-align: center;
+        color: snow;
+        display: block;
+    }
+
+    .menu a:hover {
+        font-size: larger;
     }
 
     /* CARDS STYLE */
-    
+
     .card {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
+        background-color: white;
+        color: black;
+        display: inline-flex;
+        height: auto;
+        font-size: large;
     }
-    
+
     .card_image {
-        width: 100%;
+        width: 40%;
         padding-top: 1%;
         padding-bottom: 1%;
     }
-    
+
     .image_title {
         padding-left: 20%;
     }
-    
+
     .image_title h1 {
         margin-top: 2%;
         font-size: 40px;
     }
-    
+
     .card_text {
-        width: 100%;
+        width: 60%;
         padding-top: 1%;
         padding-bottom: 1%;
     }
-    
+
     .card_text p {
-        padding-right: 0%;
+        padding-right: 10%;
         font-size: 18px;
         padding-left: 5%;
         text-align: justify;
         word-spacing: 2px;
         line-height: 1.7rem;
     }
-    
+
     .image_card img {
         width: 100%;
     }
-    
+
     .wide_image {
         width: 100%;
         height: auto;
     }
-    
+
     /* FOOTER STYLE */
-    
+
     .footer {
         background-color: black;
         color: #ffffff;
@@ -275,46 +133,238 @@ body {
         height: 400px;
         border-top: 1px solid #ffffff;
     }
-    
+
     .contacts_info {
         overflow: hidden;
         width: 50%;
         padding-left: 8%;
         padding-top: 3%;
-        padding-right: 0%;
+        padding-right: 8%;
     }
-    
+
     .contacts_logo img {
         width: 150px;
     }
-    
+
     .google_maps {
         width: 50%;
         padding-left: 3%;
         padding-top: 3%;
     }
-    
+
     .social_media_info {
         display: flex;
         flex-direction: row;
         align-items: center;
     }
-    
+
     .social_media_info img {
         width: 34px;
         height: 32px;
     }
-    
+
     .social_media_info p {
         padding-left: 20px;
     }
-    
+
     .social_media_info a {
         padding-left: 20px;
         text-decoration: none;
         color: #ffffff;
     }
-    
+
+    .social_media_info a:hover {
+        padding-left: 20px;
+        text-decoration: none;
+        color: blue;
+    }
+
+}
+
+/* SMARTPHONES STYLE */
+
+@media (max-device-width : 750px)  {
+
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    /* INFO HEADER STYLE */
+
+    .info_header {
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        color: snow;
+        text-align: center;
+        width: 100%;
+        border-bottom: 1px solid #ffffff;
+    }
+
+    #hours_header {
+        font-size: 30px;
+    }
+
+    #phone_header {
+        display: none;
+    }
+
+    #email_header {
+        display: none;
+    }
+
+    /* NAV BAR STYLE */
+
+    .home {
+        position: relative;
+    }
+
+    .nav_bar {
+        top: 0;
+        width: 100%;
+        /* Full width */
+        height: 75px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        justify-content: space-between;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 200%;
+    }
+
+    #logo {
+        width: auto;
+        height: 80%;
+    }
+
+    .menu {
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-right: 5%;
+    }
+
+    .menu a {
+        text-decoration: none;
+        font-size: smaller;
+        height: auto;
+        text-align: center;
+        color: snow;
+        display: block;
+    }
+
+    .menu a:hover {
+        font-size: larger;
+    }
+
+    /* CARDS STYLE */
+
+    .card {
+        background-color: white;
+        color: black;
+        display: inline-flex;
+        height: auto;
+        font-size: large;
+    }
+
+    .card_image {
+        width: 40%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .image_title {
+        padding-left: 20%;
+    }
+
+    .image_title h1 {
+        margin-top: 2%;
+        font-size: 40px;
+    }
+
+    .card_text {
+        width: 60%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .card_text p {
+        padding-right: 10%;
+        font-size: 18px;
+        padding-left: 5%;
+        text-align: justify;
+        word-spacing: 2px;
+        line-height: 1.7rem;
+    }
+
+    .image_card img {
+        width: 100%;
+    }
+
+    .wide_image {
+        width: 100%;
+        height: auto;
+    }
+
+    /* FOOTER STYLE */
+
+    .footer {
+        background-color: black;
+        color: #ffffff;
+        display: inline-flex;
+        height: 400px;
+        border-top: 1px solid #ffffff;
+    }
+
+    .contacts_info {
+        overflow: hidden;
+        width: 50%;
+        padding-left: 8%;
+        padding-top: 3%;
+        padding-right: 8%;
+    }
+
+    .contacts_logo img {
+        width: 150px;
+    }
+
+    .google_maps {
+        width: 50%;
+        padding-left: 3%;
+        padding-top: 3%;
+    }
+
+    .social_media_info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .social_media_info img {
+        width: 34px;
+        height: 32px;
+    }
+
+    .social_media_info p {
+        padding-left: 20px;
+    }
+
+    .social_media_info a {
+        padding-left: 20px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
     .social_media_info a:hover {
         padding-left: 20px;
         text-decoration: none;
