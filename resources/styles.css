@@ -64,7 +64,6 @@
 
     .menu a {
         text-decoration: none;
-        font-size: smaller;
         height: auto;
         text-align: center;
         color: snow;
@@ -92,7 +91,7 @@
     }
 
     .image_title {
-        padding-left: 20%;
+        padding-left: 30%;
     }
 
     .image_title h1 {
@@ -108,11 +107,11 @@
 
     .card_text p {
         padding-right: 10%;
-        font-size: 18px;
+        font-size: 1.5rem;
         padding-left: 5%;
         text-align: justify;
         word-spacing: 2px;
-        line-height: 1.7rem;
+        line-height: 2rem;
     }
 
     .image_card img {
@@ -198,7 +197,7 @@
     .info_header {
         display: flex;
         justify-content: center;
-        background-color: black;
+        background-color: rgb(47, 130, 194);
         color: snow;
         text-align: center;
         width: 100%;
@@ -238,7 +237,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        height: 200%;
+        height: 250%;
     }
 
     #logo {
@@ -247,24 +246,7 @@
     }
 
     .menu {
-        width: 50%;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        margin-right: 5%;
-    }
-
-    .menu a {
-        text-decoration: none;
-        font-size: smaller;
-        height: auto;
-        text-align: center;
-        color: snow;
-        display: block;
-    }
-
-    .menu a:hover {
-        font-size: larger;
+        display: none;
     }
 
     /* CARDS STYLE */
@@ -272,39 +254,39 @@
     .card {
         background-color: white;
         color: black;
-        display: inline-flex;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         height: auto;
         font-size: large;
     }
 
     .card_image {
-        width: 40%;
+        width: 80%;
         padding-top: 1%;
-        padding-bottom: 1%;
     }
 
     .image_title {
-        padding-left: 20%;
+        align-items: center;
     }
 
     .image_title h1 {
-        margin-top: 2%;
-        font-size: 40px;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        font-size: 6rem;
     }
 
     .card_text {
-        width: 60%;
-        padding-top: 1%;
+        width: 80%;
         padding-bottom: 1%;
     }
 
     .card_text p {
-        padding-right: 10%;
-        font-size: 18px;
-        padding-left: 5%;
+        font-size: 3rem;
         text-align: justify;
         word-spacing: 2px;
-        line-height: 1.7rem;
+        line-height: 4rem;
     }
 
     .image_card img {
@@ -321,46 +303,64 @@
     .footer {
         background-color: black;
         color: #ffffff;
-        display: inline-flex;
-        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
         border-top: 1px solid #ffffff;
     }
 
     .contacts_info {
-        overflow: hidden;
-        width: 50%;
-        padding-left: 8%;
-        padding-top: 3%;
-        padding-right: 8%;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        width: 90%;
+        padding-top: 5%;
     }
 
     .contacts_logo img {
-        width: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts_logo img {
+        height: 9rem;
+    }
+
+    #contacts_text {
+        font-size: 2rem;
     }
 
     .google_maps {
-        width: 50%;
-        padding-left: 3%;
-        padding-top: 3%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 800px;
+        margin-top: 5%;
     }
 
     .social_media_info {
         display: flex;
         flex-direction: row;
         align-items: center;
+        margin-bottom: 2%;
     }
 
     .social_media_info img {
-        width: 34px;
-        height: 32px;
+        width: 15%;
+        height: 14%;
     }
 
     .social_media_info p {
         padding-left: 20px;
+        font-size: 1.5rem;
     }
 
     .social_media_info a {
         padding-left: 20px;
+        font-size: 1.5rem;
         text-decoration: none;
         color: #ffffff;
     }
