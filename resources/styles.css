@@ -123,6 +123,21 @@
         height: auto;
     }
 
+    /* WORK CARDS*/
+
+    .work_cards {
+        width: 100%;
+        overflow: hidden;
+        margin-top: 2%;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .work_cards img {
+        width: 25%;
+    }
+
     /* FOOTER STYLE */
 
     .footer {
@@ -296,6 +311,20 @@
     .wide_image {
         width: 100%;
         height: auto;
+    }
+
+    /* WORK CARDS*/
+
+    .work_cards {
+        margin-top: 10%;
+        overflow: hidden;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .work_cards img {
+        width: 100%;
     }
 
     /* FOOTER STYLE */
