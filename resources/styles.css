@@ -60,6 +60,7 @@
         justify-content: space-evenly;
         align-items: center;
         margin-right: 5%;
+        z-index: 1;
     }
 
     .menu a {
