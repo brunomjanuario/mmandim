@@ -5,6 +5,7 @@
     <title>MMandim</title>
     <link rel="stylesheet" href="./resources/styles.css">
     <link rel="shortcut icon" href="./resources/images/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <meta charset="UTF-8">
 </head>
 
@@ -40,7 +41,7 @@
         </div>
     </div>
 
-    <div class="card" id="about">
+    <div class="card_body" id="about">
         <div class="card_image">
             <div class="image_title">
                 <h1>Sobre</h1>
@@ -63,13 +64,89 @@
     <img class="wide_image" src="./resources/images/image_3.png">
 
     <div class="work_cards" id="work_cards">
-        <img src="./resources/images/work_cards3.png">
-        <img src="./resources/images/work_cards1.png">
-        <img src="./resources/images/work_cards2.png">
-        <img src="./resources/images/work_cards4.png">
+        <img data-bs-toggle="modal" data-bs-target="#c_analitica" src="./resources/images/work_cards3.png">
+        <img data-bs-toggle="modal" data-bs-target="#r_humanos" src="./resources/images/work_cards1.png">
+        <img data-bs-toggle="modal" data-bs-target="#outsorcing" src="./resources/images/work_cards2.png">
+        <img data-bs-toggle="modal" data-bs-target="#consultoria" src="./resources/images/work_cards4.png">
+
+        <div class="modal fade mt-5" id="c_analitica" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Contabilidade Geral Analítica</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    A MMandim oferece serviços contabilístico-financeiros e de suporte ao negócio, englobando contabilidade, gestão financeira, 
+                    gestão fiscal, consultoria estratégica, projetos de financiamento e recurso humanos. 
+                    A nossa equipa experiente cuida da contabilidade geral e analítica, conciliação bancária e declarações legais. 
+                    Auxiliamos no planeamento financeiro e tomada de decisões estratégicas. 
+                    Garantimos o cumprimento das obrigações fiscais e fornecemos consultoria personalizada. 
+                    Também ajudamos no desenvolvimento de projetos de financiamento.
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="modal fade mt-5" id="r_humanos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Recursos Humanos</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    A MMandim oferece serviços contabilístico-financeiros e de suporte ao negócio, englobando contabilidade, gestão financeira, 
+                    gestão fiscal, consultoria estratégica, projetos de financiamento e recurso humanos. 
+                    A nossa equipa experiente cuida da contabilidade geral e analítica, conciliação bancária e declarações legais. 
+                    Auxiliamos no planeamento financeiro e tomada de decisões estratégicas. 
+                    Garantimos o cumprimento das obrigações fiscais e fornecemos consultoria personalizada. 
+                    Também ajudamos no desenvolvimento de projetos de financiamento.
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="modal fade mt-5" id="outsorcing" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Contabilidade em Outsorcing</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    A MMandim oferece serviços contabilístico-financeiros e de suporte ao negócio, englobando contabilidade, gestão financeira, 
+                    gestão fiscal, consultoria estratégica, projetos de financiamento e recurso humanos. 
+                    A nossa equipa experiente cuida da contabilidade geral e analítica, conciliação bancária e declarações legais. 
+                    Auxiliamos no planeamento financeiro e tomada de decisões estratégicas. 
+                    Garantimos o cumprimento das obrigações fiscais e fornecemos consultoria personalizada. 
+                    Também ajudamos no desenvolvimento de projetos de financiamento.
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="modal fade mt-5" id="consultoria" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Consultoria</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    A MMandim oferece serviços contabilístico-financeiros e de suporte ao negócio, englobando contabilidade, gestão financeira, 
+                    gestão fiscal, consultoria estratégica, projetos de financiamento e recurso humanos. 
+                    A nossa equipa experiente cuida da contabilidade geral e analítica, conciliação bancária e declarações legais. 
+                    Auxiliamos no planeamento financeiro e tomada de decisões estratégicas. 
+                    Garantimos o cumprimento das obrigações fiscais e fornecemos consultoria personalizada. 
+                    Também ajudamos no desenvolvimento de projetos de financiamento.
+                </div>
+              </div>
+            </div>
+        </div>
     </div>
 
-    <div class="card" id="services">
+    <div class="card_body" id="services">
         <div class="card_image">
             <div class="image_title">
                 <h1>Serviços</h1>
@@ -128,6 +205,7 @@
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>
